@@ -1,13 +1,11 @@
 <!doctype html>
 <html lang="en" class="no-js">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>NSW Digital Design System - Data visualisation</title>
-  <meta name="robots" content="noindex" />
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="NSW Design System data visualisation method allows users to comprehend data comprehended quickly, allowing for faster analysis and conclusions." />
   <link rel="icon" href="/nsw-design-system/favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,14 +15,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/atom-one-light.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/xml.min.js"></script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TMEHXHFJXJ"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-TMEHXHFJXJ');
-  </script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TMEHXHFJXJ"></script>
+<script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-TMEHXHFJXJ");</script>
 </head>
 
 <body class="nsw-docs">
@@ -49,7 +41,7 @@
                 </a>
               </div>
               <div class="nsw-header__name">
-                <div class="nsw-header__title">Design System <span class="nsw-docs__version">v3.0.5</span></div>
+                <div class="nsw-header__title">Design System <span class="nsw-docs__version">v3.1.0</span></div>
               </div>
               <div class="nsw-header__menu">
                 <button type="button" class="js-open-nav" aria-expanded="false" aria-controls="main-nav">
@@ -76,6 +68,33 @@
           </div>
           <ul class="nsw-main-nav__list">
             <li>
+              <a role="button" aria-expanded="false" aria-controls="sub-nav-about">
+                <span>About</span>
+                <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">keyboard_arrow_right</span>
+              </a>
+        
+              <div class="nsw-main-nav__sub-nav" id="sub-nav-about" role="region" aria-label="Design Submenu">
+                <div class="nsw-main-nav__header">
+                  <button class="nsw-icon-button nsw-icon-button--flex js-close-sub-nav" type="button" aria-expanded="true" aria-controls="sub-nav-about">
+                    <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">keyboard_arrow_left</span>
+                    <span>Back<span class="sr-only"> to Main Menu</span></span>
+                  </button>
+        
+                  <button class="nsw-icon-button js-close-nav" type="button" aria-expanded="true">
+                    <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">close</span>
+                    <span class="sr-only">Close Menu</span>
+                  </button>
+                </div>
+        
+                <ul class="nsw-main-nav__sub-list">
+                  <li><a href="/nsw-design-system/docs/content/about/what-is-design-system.html"><span>What is Design System</span></a></li>
+                  <li><a href="/nsw-design-system/docs/content/about/supporting-different-roles.html"><span>Supporting different roles</span></a></li>
+                  <li><a href="/nsw-design-system/docs/content/about/our-ecosystem.html"><span>Our ecosystem</span></a></li>
+                  <li><a href="/nsw-design-system/docs/content/about/whats-happening.html"><span>What&#x27;s happening</span></a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
               <a role="button" aria-expanded="false" aria-controls="sub-nav-design">
                 <span>Design</span>
                 <span class="material-icons nsw-material-icons" focusable="false" aria-hidden="true">keyboard_arrow_right</span>
@@ -99,6 +118,7 @@
                   <li><a href="/nsw-design-system/docs/content/design/figma-ui-kit.html"><span>Figma UI Kit</span></a></li>
                   <li><a href="/nsw-design-system/docs/content/design/extending.html"><span>Extending</span></a></li>
                   <li><a href="/nsw-design-system/docs/content/design/theming.html"><span>Theming</span></a></li>
+                  <li><a href="/nsw-design-system/docs/content/design/guides.html"><span>Guides</span></a></li>
                 </ul>
               </div>
             </li>
@@ -208,6 +228,7 @@
                   <li><a href="/nsw-design-system/components/progress-indicator/index.html"><span>Progress Indicator</span></a></li>
                   <li><a href="/nsw-design-system/components/results-bar/index.html"><span>Results bar</span></a></li>
                   <li><a href="/nsw-design-system/components/side-nav/index.html"><span>Side navigation</span></a></li>
+                  <li><a href="/nsw-design-system/components/steps/index.html"><span>Steps</span></a></li>
                   <li><a href="/nsw-design-system/components/table/index.html"><span>Tables</span></a></li>
                   <li><a href="/nsw-design-system/components/tabs/index.html"><span>Tabs</span></a></li>
                   <li><a href="/nsw-design-system/components/tag/index.html"><span>Tags</span></a></li>
@@ -238,13 +259,14 @@
                   <li><a href="/nsw-design-system/docs/content/methods/search.html"><span>Search &amp; Filters</span></a></li>
                   <li><a href="/nsw-design-system/docs/content/methods/maps.html"><span>Maps</span></a></li>
                   <li><a href="/nsw-design-system/docs/content/methods/data-visualisation.html"><span>Data visualisation</span></a></li>
+                  <li><a href="/nsw-design-system/docs/content/methods/you-are-here.html"><span>You are here</span></a></li>
                 </ul>
               </div>
             </li>
         
             <li>
               <a href="/nsw-design-system/templates/index.html">
-                <span>Example pages</span>
+                <span>Templates</span>
               </a>
             </li>
           </ul>
@@ -271,7 +293,7 @@
       <div id="in-page-nav" class="nsw-in-page-nav__title">On this page</div>
       <ul>
         <li>
-          <a href="#when-to-use">When to use graphs and charts</a>
+          <a href="#when-to-use">When to use</a>
         </li>
         <li>
           <a href="#colours-and-theming">Colours and theming</a>
@@ -299,7 +321,7 @@
   <li>Mapping and diagramming</li>
 </ul>
 
-<h3 id="colours-and-theming">Colours and theming</h3>
+<h2 id="colours-and-theming">Colours and theming</h2>
 <p>Colour plays a large role in data visualisation to communicate insights. </p>
 <p>Use colours from your website’s colour sets. If you need extra colours, use the NSW palette.</p>
 <p>Where possible, use either:</p>
@@ -309,7 +331,7 @@
 </ul>
 <p>For corporate websites, your colours are blue, grey, and red. For campaigns and brand-exempt sites, you'll have your own colours.</p>
 
-<h4>Colour contrast</h4>
+<h3>Colour contrast</h3>
 <p>The colours in the NSW Design System follow a pattern from the darkest (e.g. Blue 01) to lightest (e.g. Row 04). Prioritise the colours with the best constrast to your background.</p>
 
 <div class="nsw-section nsw-section--white nsw-block nsw-p-x-sm nsw-p-top-sm">
@@ -335,16 +357,16 @@
   </div>
 </div>
 
-<h3 id="code-implementation">Code implementation</h3>
+<h2 id="code-implementation">Code implementation</h2>
 <p class="intro">
   The NSW Design System uses charts.js, the leading open-source library, to create charts and graphs. The instructions below show how it can be used in a brand compliant and accessible way.
 </p>
 
-<h4>Installing and Usage</h4>
+<h3>Installing and Usage</h3>
 <p>Follow the <a href="https://www.chartjs.org/docs/latest/getting-started/installation.html" target="_blank">charts.js installation instructions</a> in their documentation.</p>
 <p>Once installed, follow the normal <a href="https://www.chartjs.org/docs/latest/getting-started/usage.html" target="_blank">charts.js usage instructions</a> - we'll change some config settings to folow NSW best practice.</p>
 
-<h4>Screen readers</h4>
+<h3>Screen readers</h3>
 <p>Canvas elements cannot be read by screen readers, similar to images. Use the NSW Design System <code>.sr-only</code> class - this will hide elements from screens but allow screen readers to read them. To make your graphs accessible to screen readers, create screen-reader friendly in an <code>.sr-only</code> container, and make sure to include content on the graphic so screen readers can give context to users:</p>
 <div class="nsw-docs__example nsw-docs__example--hidden">
   <div class="nsw-docs__component">
@@ -368,7 +390,7 @@
 
 <p>For maximum accessibility, we recommend offering a text-based alternative to all users.</p>
 
-<h4>Theming with the NSW Government Palette</h4>
+<h3>Theming with the NSW Government Palette</h3>
 <p>Use the design guidance above to decide which colours your chart or graph should use. You can access the full palette via javascript.</p>
 <p>First, set fonts and a default theme. These will be the default colours for your charts and graphs, but you can override them if needed.</p>
 
@@ -422,7 +444,7 @@ Chart.defaults.font.weight = 400;
 </div>
 
 
-<h4>Setting colours for a specific graph</h4>
+<h3>Setting colours for a specific graph</h3>
 <p>You can theme each chart or graph individually.</p>
 
 <div class="nsw-docs__example nsw-docs__example--hidden">
@@ -495,7 +517,7 @@ var myChart = new Chart(
 </div>
 
 
-<h3 id="full-docs">Full Documentation</h3>
+<h2 id="full-docs">Full Documentation</h2>
 <p>The information above shows you how to configure charts.js for use in a way that meets the digital brand framework, and the digital standards. For full documentation see the <a target="_blank" href="https://www.chartjs.org/docs/latest/">charts.js documentation</a></p>
 
 <script>
